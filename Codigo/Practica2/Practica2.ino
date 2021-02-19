@@ -446,10 +446,6 @@ void SALIDA() {
     digitalWrite(led2, LOW);
     llego_salida = true;
     estado = 0;
-    lcd.setCursor(0, 0);
-    lcd.print("Habitacion: ");
-    lcd.print(habitacion);
-    lcd.setCursor(0, 1);
     lcd.clear();
     delay(10);
   }
